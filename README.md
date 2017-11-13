@@ -1,28 +1,13 @@
-# how_to_convert_text_to_images
-This is the code for "How to Convert Text to Images - Intro to Deep Learning #16' by Siraj Raval on YouTube
-
-
-## Coding Challenge - Due Date Thursday, May 4th at 12 PM PST
-
-This weeks coding challenge is to use this code to generate non-bird, non-flower images. Pick a captioned image dataset and train
-your StackGAN model on it! Post at least one image-text pair you generated in your README. If you want suggestions for a dataset
-try [this](http://mscoco.org/dataset/#overview) or [this](http://sidgan.me/technical/2016/01/09/Exploring-Datasets).
-
-## Overview
-
-This is the code for [this](https://youtu.be/gmvRStL_Dag) video on Youtube by Siraj Raval as part of the Intro 
-to Deep Learning Nanodegree with Udacity. This model is called StackGAN and this is the code for for reproducing main results in the paper [StackGAN: Text to Photo-realistic Image Synthesis
-with Stacked Generative Adversarial Networks](https://arxiv.org/pdf/1612.03242v1.pdf).
-
+# Using GANs for generating images from text: Stacked GANs
+Stacked Generative Adversarial Networks for synthesizing photo-realistic images from
+text descriptions. It decomposes the difficult problem of generating high-resolution 
+images into more manageable subproblems and significantly improve standard GANs.
 
 
 ## Dependencies
 python 2.7
-
 [TensorFlow 0.11](https://www.tensorflow.org/get_started/os_setup)
-
 [Optional] [Torch](http://torch.ch/docs/getting-started.html#_) is needed, if use the pre-trained char-CNN-RNN text encoder.
-
 [Optional] [skip-thought](https://github.com/ryankiros/skip-thoughts) is needed, if use the skip-thought text encoder.
 
 `pip install` the following packages:
@@ -88,4 +73,4 @@ them creative enough to generate objects with different poses and viewpoints fro
 
 ## Credits
 
-The credits for this code go to [hanzhanggit](https://github.com/hanzhanggit/StackGAN). I've merely created a wrapper to get people started.
+The credits for this code go to [hanzhanggit](https://github.com/hanzhanggit/StackGAN) and Siraj Raval.
