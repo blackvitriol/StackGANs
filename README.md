@@ -3,6 +3,10 @@ Stacked Generative Adversarial Networks for synthesizing photo-realistic images 
 text descriptions. It decomposes the difficult problem of generating high-resolution 
 images into more manageable subproblems and significantly improve standard GANs.
 
+Read the paper for architecture information:
+https://arxiv.org/pdf/1612.03242v2.pdf
+
+tldr; Divided into two GANs: A Generator and a Discriminator Network.
 
 ## Dependencies
 python 2.7
