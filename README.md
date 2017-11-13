@@ -6,8 +6,11 @@ images into more manageable subproblems and significantly improve standard GANs.
 
 ## Dependencies
 python 2.7
+
 [TensorFlow 0.11](https://www.tensorflow.org/get_started/os_setup)
+
 [Optional] [Torch](http://torch.ch/docs/getting-started.html#_) is needed, if use the pre-trained char-CNN-RNN text encoder.
+
 [Optional] [skip-thought](https://github.com/ryankiros/skip-thoughts) is needed, if use the skip-thought text encoder.
 
 `pip install` the following packages:
